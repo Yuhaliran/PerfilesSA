@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ServiciosWebPerfilesSA||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|c:\\users\\nuryan\\desktop\\perfilessa\\webservice\\servicioswebperfilessa\\servicioswebperfilessa\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\interfaces\\idepartamentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\interfaces\\idepartamentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\servicioswebperfilessa\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AAEA50C3-9422-4B3E-A56A-870998D5F79B}|ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj|solutionrelative:servicioswebperfilessa\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiciosWebPerfilesSA",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-21T15:29:46.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAGcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:42:24.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Repositories\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Repositories\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Repositories\\EmpleadoRepository.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Repositories\\EmpleadoRepository.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAQwK0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:41:39.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Interfaces\\IEmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Interfaces\\IEmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Interfaces\\IEmpleadoRepository.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Interfaces\\IEmpleadoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:41:17.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Models\\Empleado.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Models\\Empleado.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:40:58.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\packages.config",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\packages.config",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\packages.config",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-20T00:42:32.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Global.asax.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:12:19.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\App_Start\\SwaggerConfig.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\App_Start\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\App_Start\\SwaggerConfig.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\App_Start\\SwaggerConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:11:41.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Web.config",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Web.config",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Web.config",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-19T22:58:57.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Controllers\\DepartamentoController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:51:46.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Repositories\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Repositories\\DepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Repositories\\DepartamentoRepository.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Repositories\\DepartamentoRepository.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:50:55.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:50:26.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDepartamentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Interfaces\\IDepartamentRepository.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Interfaces\\IDepartamentRepository.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Interfaces\\IDepartamentRepository.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Interfaces\\IDepartamentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:49:44.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "ServiciosWebPerfilesSA\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\PerfilesSA\\WebService\\ServiciosWebPerfilesSA\\ServiciosWebPerfilesSA\\Models\\Departamento.cs",
+              "RelativeToolTip": "ServiciosWebPerfilesSA\\Models\\Departamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:49:07.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
