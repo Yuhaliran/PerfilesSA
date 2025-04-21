@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|c:\\users\\nuryan\\desktop\\prueba_practica\\servicioswebperfilessa\\frontendperfilessa\\frontendperfilessa\\frontendperfilessa\\pages\\reportes\\reporteempleados\\reporteempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\reportes\\reporteempleados\\reporteempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\reportes\\reporteempleados\\reporteempleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\reportes\\reporteempleados\\reporteempleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\modificarempleado\\modificarempleado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\modificarempleado\\modificarempleado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\index\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\index\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\modificardepartamento\\modificardepartamento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\modificardepartamento\\modificardepartamento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\modificardepartamento\\modificardepartamento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\modificardepartamento\\modificardepartamento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\index\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\index\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\empleado\\empleado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\empleado\\empleado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\empleado\\empleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\empleado\\empleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\departamento\\departamento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\departamento\\departamento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\departamento\\departamento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\departamento\\departamento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\services\\departamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\services\\departamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\models\\empleadoextendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\models\\empleadoextendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\helpers\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\helpers\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\modificarempleado\\modificarempleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\modificarempleado\\modificarempleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\frontendperfilessa\\pages\\modificarempleado\\modificarempleado.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47622992-6424-48BD-B024-AC21B5C071F9}|FrontEndPerfilesSA\\FrontEndPerfilesSA.csproj|solutionrelative:frontendperfilessa\\pages\\modificarempleado\\modificarempleado.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Web.config",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Web.config",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Web.config",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Web.config",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-21T15:12:37.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Index\\Index.aspx.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Index\\Index.aspx.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Index\\Index.aspx.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Index\\Index.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:12:12.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:06:55.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:06:51.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReporteEmpleados.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:16:43.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReporteEmpleados.aspx",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Reportes\\ReporteEmpleados\\ReporteEmpleados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-21T14:13:35.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmpleadoExtendido.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Models\\EmpleadoExtendido.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Models\\EmpleadoExtendido.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Models\\EmpleadoExtendido.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Models\\EmpleadoExtendido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:26:51.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Services\\DepartamentoService.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Services\\DepartamentoService.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Services\\DepartamentoService.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Services\\DepartamentoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:10:14.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ModificarEmpleado.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.designer.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.designer.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:57:44.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Services\\EmpleadoService.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAADwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:47:53.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Empleado.aspx",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-21T01:28:22.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Index\\Index.aspx",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Index\\Index.aspx",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Index\\Index.aspx",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Index\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-21T01:28:14.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Site.Master.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Site.Master.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Site.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:28:08.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Site.Master",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Site.Master",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Site.Master",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Site.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-21T01:28:00.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Models\\Empleado.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Models\\Empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:02:22.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Empleado.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Empleado\\Empleado.aspx.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAYwEIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:16:04.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ModificarEmpleado.aspx",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T22:01:26.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Departamento.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:56:01.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Departamento.aspx",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\Departamento\\Departamento.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T21:55:43.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApiHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Helpers\\ApiHelper.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Helpers\\ApiHelper.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Helpers\\ApiHelper.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Helpers\\ApiHelper.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:47:38.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Models\\Departamento.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Models\\Departamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:45:42.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModificarDepartamento.aspx",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T21:37:24.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModificarEmpleado.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\ModificarEmpleado\\ModificarEmpleado.aspx.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA0wFsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:35:55.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModificarDepartamento.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx.cs",
+              "RelativeDocumentMoniker": "FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx.cs",
+              "ToolTip": "C:\\Users\\Nuryan\\Desktop\\Prueba_Practica\\ServiciosWebPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx.cs",
+              "RelativeToolTip": "FrontEndPerfilesSA\\Pages\\ModificarDepartamento\\ModificarDepartamento.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:35:50.874Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

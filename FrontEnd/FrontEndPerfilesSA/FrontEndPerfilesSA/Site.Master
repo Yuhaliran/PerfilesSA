@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="FrontEndPerfilesSA.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server" >
+    <title>Panel de Navegación</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .submenu {
+            position: relative;
+        }
+        
+        .submenu-content {
+            display: none;
+            position: relative;
+            background-color: #495057;
+            padding-left: 10px;
+        }
+        
+        .submenu:hover .submenu-content {
+            display: block;
+        }
+        .submenu-content a {
+            font-size: 0.95em;
+            padding-left: 30px;
+            color: white;
+        }
+
+
+        .sidebar {
+            height: 100vh;
+            width: 220px;
+            position: fixed;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <div class="sidebar">
+            <h2 style="text-align: center;">Perfiles SA</h2>
+            <a href='<%= ResolveUrl("~/Pages/Index/Index.aspx") %>'>Inicio</a>
+            <div class="submenu">
+                <a href="#">Empleado</a>
+                <div class="submenu-content">
+                    <a href='<%= ResolveUrl("~/Pages/Empleado/Empleado.aspx") %>'>Crear Empleado</a>
+                    <a href='<%= ResolveUrl("~/Pages/ModificarEmpleado/ModificarEmpleado.aspx") %>'>Modificar Empleado</a>
+                </div>
+            </div>
+
+            <div class="submenu">
+                <a href="#">Derpartamento ▾</a>
+                <div class="submenu-content">
+                    <a href='<%= ResolveUrl("~/Pages/Departamento/Departamento.aspx") %>'>Crear Departamento</a>
+                    <a href='<%= ResolveUrl("~/Pages/ModificarDepartamento/ModificarDepartamento.aspx") %>'>Modificar Departamento</a>
+                </div>
+            </div>
+
+            <a href='<%= ResolveUrl("~/Pages/Reportes/ReporteEmpleados/ReporteEmpleados.aspx") %>'>Reporte Empleados</a>
+
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
