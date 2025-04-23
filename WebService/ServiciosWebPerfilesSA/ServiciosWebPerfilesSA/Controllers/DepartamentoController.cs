@@ -1,12 +1,9 @@
-﻿using ServiciosWebPerfilesSA.Interfaces;
+﻿using ServiciosWebPerfilesSA.Repositories;
+using ServiciosWebPerfilesSA.Interfaces;
+using ServiciosWebPerfilesSA.Helpers;
 using ServiciosWebPerfilesSA.Models;
-using ServiciosWebPerfilesSA.Repositories;
-using System.Configuration;
-using System.Data.SqlClient;
-using System.Net.Http;
-using System.Net;
-using System;
 using System.Web.Http;
+using System;
 
 namespace ServiciosWebPerfilesSA.Controllers
 {
@@ -20,105 +17,121 @@ namespace ServiciosWebPerfilesSA.Controllers
         }
 
         [HttpGet]
-        [Route("api/departamento/test")]
-        public IHttpActionResult Test()
-        {
-            return Ok("probando API dafasdf");
-        }
-
-
-        [HttpGet]
-        [Route("api/departamento/GetDepartamentos")]
+        [Route(ApiRoutes.Departamento.ObtenerTodos)]
         public IHttpActionResult ObtenerTodos()
         {
-            var resultado = _repo.BuscarDepartamento("");
-            return Ok(resultado);
+            Logger.Log("Intentando consultar todos los departamentos");
+            try
+            {
+                var resultado = _repo.BuscarDepartamento("");
+                Logger.Log("Consulta de departamentos correcta");
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, "Fallo al consultar todos los departamentos");
+                return InternalServerError();
+            }
         }
 
-
         [HttpPost]
-        [Route("api/departamento/insertar")]
+        [Route(ApiRoutes.Departamento.Insertar)]
         public IHttpActionResult InsertarDepartamento(Departamento depto)
         {
+            Logger.Log($"Intentando insertar departamento: {depto.Nombre}");
+
             try
             {
                 if (_repo.InsertarDepartamento(depto))
+                {
+                    Logger.Log($"Departamento insertado correctamente: {depto.Nombre}");
                     return Ok("Departamento insertado correctamente.");
+                }
 
-                return BadRequest("No se pudo insertar el departamento.");
+                Logger.Log($"Fallo al insertar el departamento: {depto.Nombre}");
+                return BadRequest("Fallo al insertar el departamento");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Logger.LogError(ex, "InsertarDepartamento");
                 return InternalServerError();
             }
         }
 
         [HttpPut]
-        [Route("api/departamento/actualizar")]
+        [Route(ApiRoutes.Departamento.Actualizar)]
         public IHttpActionResult ActualizarDepartamento(Departamento depto)
         {
+            Logger.Log($"Intentando actualizar departamento id: {depto.IdDepartamento} nombre: {depto.Nombre}");
+
             try
             {
                 if (_repo.ActualizarDepartamento(depto))
+                {
+                    Logger.Log($"Departamento actualizado correctamente: {depto.Nombre}");
                     return Ok("Departamento actualizado correctamente.");
+                }
 
-                return BadRequest("No se pudo actualizar el departamento.");
+                Logger.Log($"No se pudo actualizar el departamento: {depto.Nombre}");
+                return BadRequest("No se pudo actualizar el departamento");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Logger.LogError(ex, "ActualizarDepartamento");
                 return InternalServerError();
             }
         }
 
-
         [HttpGet]
-        [Route("api/departamento/buscar")]
+        [Route(ApiRoutes.Departamento.Buscar)]
         public IHttpActionResult BuscarDepartamento([FromUri] string dato)
         {
-            var resultado = _repo.BuscarDepartamento(dato);
+            Logger.Log($"Buscando departamento: {dato}");
 
-            if (resultado.Count == 0)
-                return NotFound();
-
-            return Ok(resultado);
-        }
-
-
-        [HttpGet]
-        [Route("api/departamento/buscar/{id}")]
-        public IHttpActionResult BuscarDepartamentoPorId(int id)
-        {
-            var resultado = _repo.BuscarDepartamentoPorId(id);
-
-            if (resultado == null)
-                return NotFound();
-
-            return Ok(resultado);
-        }
-
-        [HttpGet]
-        [Route("api/departamento/validar")]
-        public HttpResponseMessage ValidarExistenciaDepartamento(string nombre)
-        {
             try
             {
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexionBD"].ConnectionString))
+                var resultado = _repo.BuscarDepartamento(dato);
+
+                if (resultado.Count == 0)
                 {
-                    SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM dbo.departamento WHERE Nombre = @Nombre", conn);
-                    cmd.Parameters.AddWithValue("@Nombre", nombre);
-
-                    conn.Open();
-                    int count = (int)cmd.ExecuteScalar();
-
-                    return Request.CreateResponse(HttpStatusCode.OK, new { existe = count > 0 });
+                    Logger.Log($"No se encontraron departamentos: {dato}");
+                    return NotFound();
                 }
+
+                Logger.Log($"Departamentos encontrados con {dato} total: {resultado.Count}");
+                return Ok(resultado);
             }
             catch (Exception ex)
             {
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+                Logger.LogError(ex, "BuscarDepartamento");
+                return InternalServerError();
             }
         }
 
+        [HttpGet]
+        [Route(ApiRoutes.Departamento.BuscarId)]
+        public IHttpActionResult BuscarDepartamentoPorId(int id)
+        {
+            Logger.Log($"Buscando departamento por id: {id}");
 
+            try
+            {
+                var resultado = _repo.BuscarDepartamentoPorId(id);
+
+                if (resultado == null)
+                {
+                    Logger.Log($"No se encontro departamento id: {id}");
+                    return NotFound();
+                }
+
+                Logger.Log($"Departamento encontrado con id: {id}");
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, "BuscarDepartamentoPorId");
+                return InternalServerError();
+            }
+        }
     }
 }

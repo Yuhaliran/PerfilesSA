@@ -1,9 +1,10 @@
 ﻿using ServiciosWebPerfilesSA.Interfaces;
 using ServiciosWebPerfilesSA.Models;
-using System.Configuration;
-using System.Data.SqlClient;
-using System.Data;
+using ServiciosWebPerfilesSA.Helpers;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Data;
 using System;
 
 namespace ServiciosWebPerfilesSA.Repositories
@@ -12,11 +13,12 @@ namespace ServiciosWebPerfilesSA.Repositories
     {
         private readonly string connectionString = ConfigurationManager.ConnectionStrings["ConexionBD"].ConnectionString;
 
-
         public bool InsertarDepartamento(Departamento depto)
         {
             try
             {
+                Logger.Log("Insertando departamento...");
+
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 using (SqlCommand cmd = new SqlCommand("sp_InsertarDepartamento", conn))
                 {
@@ -27,10 +29,12 @@ namespace ServiciosWebPerfilesSA.Repositories
                     conn.Open();
                     cmd.ExecuteNonQuery();
                 }
+
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
+                Logger.LogError(ex, "InsertarDepartamento");
                 return false;
             }
         }
@@ -39,6 +43,8 @@ namespace ServiciosWebPerfilesSA.Repositories
         {
             try
             {
+                Logger.Log("Actualizando departamento...");
+
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 using (SqlCommand cmd = new SqlCommand("sp_ActualizarDepartamento", conn))
                 {
@@ -50,10 +56,12 @@ namespace ServiciosWebPerfilesSA.Repositories
                     conn.Open();
                     cmd.ExecuteNonQuery();
                 }
+
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
+                Logger.LogError(ex, "ActualizarDepartamento");
                 return false;
             }
         }
@@ -62,27 +70,36 @@ namespace ServiciosWebPerfilesSA.Repositories
         {
             var departamentos = new List<Departamento>();
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            try
             {
-                string query = "SELECT * FROM dbo.fn_BuscarDepartamento(@dato)";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@dato", dato);
-                    conn.Open();
+                Logger.Log("Buscando departamentos...");
 
-                    using (SqlDataReader reader = cmd.ExecuteReader())
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM dbo.fn_BuscarDepartamento(@dato)";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        while (reader.Read())
+                        cmd.Parameters.AddWithValue("@dato", dato);
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            departamentos.Add(new Departamento
+                            while (reader.Read())
                             {
-                                IdDepartamento = Convert.ToInt32(reader["IdDepartamento"]),
-                                Nombre = reader["Nombre"].ToString(),
-                                Activo = Convert.ToBoolean(reader["Activo"])
-                            });
+                                departamentos.Add(new Departamento
+                                {
+                                    IdDepartamento = Convert.ToInt32(reader["IdDepartamento"]),
+                                    Nombre = reader["Nombre"].ToString(),
+                                    Activo = Convert.ToBoolean(reader["Activo"])
+                                });
+                            }
                         }
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, "BuscarDepartamento");
             }
 
             return departamentos;
@@ -92,29 +109,37 @@ namespace ServiciosWebPerfilesSA.Repositories
         {
             var departamentos = new List<Departamento>();
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            try
             {
-                string query = "SELECT * FROM dbo.fn_BuscarDepartamentoPorId(@idDepartamento)";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@idDepartamento", idDepartamento);
-                    conn.Open();
+                Logger.Log($"Buscando departamento {idDepartamento}...");
 
-                    using (SqlDataReader reader = cmd.ExecuteReader())
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM dbo.fn_BuscarDepartamentoPorId(@idDepartamento)";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        while (reader.Read())
+                        cmd.Parameters.AddWithValue("@idDepartamento", idDepartamento);
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            departamentos.Add(new Departamento
+                            while (reader.Read())
                             {
-                                IdDepartamento = Convert.ToInt32(reader["IdDepartamento"]),
-                                Nombre = reader["Nombre"].ToString(),
-                                Activo = Convert.ToBoolean(reader["Activo"])
-                            });
+                                departamentos.Add(new Departamento
+                                {
+                                    IdDepartamento = Convert.ToInt32(reader["IdDepartamento"]),
+                                    Nombre = reader["Nombre"].ToString(),
+                                    Activo = Convert.ToBoolean(reader["Activo"])
+                                });
+                            }
                         }
                     }
                 }
             }
-
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, "BuscarDepartamentoPorId");
+            }
             return departamentos;
         }
     }

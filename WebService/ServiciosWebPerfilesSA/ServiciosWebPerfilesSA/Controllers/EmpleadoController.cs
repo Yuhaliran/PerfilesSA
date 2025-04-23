@@ -1,12 +1,9 @@
-﻿using ServiciosWebPerfilesSA.Interfaces;
+﻿using ServiciosWebPerfilesSA.Repositories;
+using ServiciosWebPerfilesSA.Interfaces;
+using ServiciosWebPerfilesSA.Helpers;
 using ServiciosWebPerfilesSA.Models;
-using ServiciosWebPerfilesSA.Repositories;
-using System;
-using System.Configuration;
-using System.Data.SqlClient;
-using System.Net.Http;
-using System.Net;
 using System.Web.Http;
+using System;
 
 namespace ServiciosWebPerfilesSA.Controllers
 {
@@ -19,139 +16,142 @@ namespace ServiciosWebPerfilesSA.Controllers
             _repo = new EmpleadoRepository();
         }
 
-
         [HttpPost]
-        [Route("api/empleado/insertar")]
+        [Route(ApiRoutes.Empleado.Insertar)]
         public IHttpActionResult InsertarEmpleado(Empleado emp)
         {
+            Logger.Log($"Intentando insertar empleado: {emp.Nombres}");
+
             try
             {
                 if (_repo.InsertarEmpleado(emp))
-                    return Ok("Empleado insertado correctamente.");
+                {
+                    Logger.Log($"Empleado insertado: {emp.Nombres}");
+                    return Ok("Empleado insertado");
+                }
 
-                return BadRequest("No se pudo insertar el empleado.");
+                Logger.Log($"Fallo al insertar empleado: {emp.Nombres}");
+                return BadRequest("No se pudo insertar empleado");
             }
             catch (Exception ex)
             {
+                Logger.LogError(ex, "InsertarEmpleado");
                 return InternalServerError();
             }
         }
 
-
         [HttpPut]
-        [Route("api/empleado/actualizar")]
+        [Route(ApiRoutes.Empleado.Actualizar)]
         public IHttpActionResult ActualizarEmpleado(Empleado emp)
         {
+            Logger.Log($"Intentando actualizar empleado: {emp.IdEmpleado}");
+
             try
             {
                 if (_repo.ActualizarEmpleado(emp))
-                    return Ok("Empleado actualizado correctamente.");
+                {
+                    Logger.Log($"Empleado actualizado: {emp.IdEmpleado}");
+                    return Ok("Empleado actualizado");
+                }
 
-                return InternalServerError();
+                Logger.Log($"Fallo al actualizar el empleado: {emp.IdEmpleado}");
+                return BadRequest("No se pudo actualizar el empleado");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
+                Logger.LogError(ex, "ActualizarEmpleado");
                 return InternalServerError();
             }
         }
 
         [HttpGet]
-        [Route("api/empleado/buscar")]
+        [Route(ApiRoutes.Empleado.Buscar)]
         public IHttpActionResult BuscarEmpleado([FromUri] string dato)
         {
+            Logger.Log($"Buscando empleado: {dato}");
+
             try
             {
                 var resultado = _repo.BuscarEmpleado(dato);
 
                 if (resultado.Count == 0)
+                {
+                    Logger.Log("No se encontraron empleados");
                     return NotFound();
+                }
 
+                Logger.Log($"Se encontraron {resultado.Count} empleados.");
                 return Ok(resultado);
             }
             catch (Exception ex)
             {
+                Logger.LogError(ex, "BuscarEmpleado");
                 return InternalServerError();
             }
-            
         }
 
-
         [HttpGet]
-        [Route("api/empleado/GetEmpleados")]
+        [Route(ApiRoutes.Empleado.ObtenerTodos)]
         public IHttpActionResult ObtenerTodos()
         {
+            Logger.Log("Consultando todos los empleados");
+
             try
             {
                 var resultado = _repo.BuscarEmpleado("");
+                Logger.Log("Consultados todos los empleados");
                 return Ok(resultado);
             }
             catch (Exception ex)
             {
+                Logger.LogError(ex, "ObtenerTodos");
                 return InternalServerError();
             }
         }
 
         [HttpGet]
-        [Route("api/empleado/ReportarEmpleados")]
+        [Route(ApiRoutes.Empleado.Reportar)]
         public IHttpActionResult ReportarEmpleados()
         {
+            Logger.Log("Reportando empleados");
+
             try
             {
                 var resultado = _repo.ReportarEmpleados();
+                Logger.Log("Empleados Reportados");
                 return Ok(resultado);
             }
             catch (Exception ex)
             {
+                Logger.LogError(ex, "ReportarEmpleados");
                 return InternalServerError();
             }
         }
 
-
-
         [HttpGet]
-        [Route("api/empleado/validar")]
-        public HttpResponseMessage ValidarExistenciaEmpleado(string nit, string dpi)
-        {
-            try
-            {
-                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexionBD"].ConnectionString))
-                {
-                    SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM dbo.empleado WHERE nit = @nit OR dpi = @dpi", conn);
-                    cmd.Parameters.AddWithValue("@nit", nit);
-                    cmd.Parameters.AddWithValue("@dpi", dpi);
-
-                    conn.Open();
-                    int count = (int)cmd.ExecuteScalar();
-
-                    return Request.CreateResponse(HttpStatusCode.OK, new { existe = count > 0 });
-                }
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
-
-
-
-        [HttpGet]
-        [Route("api/empleado/buscarPorId/{id}")]
+        [Route(ApiRoutes.Empleado.BuscarId)]
         public IHttpActionResult BuscarEmpleado(int id)
         {
+            Logger.Log($"Buscando empleado: {id}");
+
             try
             {
                 var resultado = _repo.BuscarEmpleadoPorId(id);
 
                 if (resultado.Count == 0)
+                {
+                    Logger.Log("Empleado no encontrado");
                     return NotFound();
+                }
 
+                Logger.Log("Empleado encontradoaa");
                 return Ok(resultado);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
+                Logger.LogError(ex, "BuscarEmpleadoPorId");
                 return InternalServerError();
             }
-            
         }
     }
 }
