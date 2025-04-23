@@ -64,7 +64,7 @@ namespace ServiciosWebPerfilesSA.Repositories
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "SELECT * FROM dbo.fnBuscarDepartamento(@dato)";
+                string query = "SELECT * FROM dbo.fn_BuscarDepartamento(@dato)";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@dato", dato);
@@ -87,7 +87,6 @@ namespace ServiciosWebPerfilesSA.Repositories
 
             return departamentos;
         }
-
 
         public List<Departamento> BuscarDepartamentoPorId(int idDepartamento)
         {
@@ -118,8 +117,5 @@ namespace ServiciosWebPerfilesSA.Repositories
 
             return departamentos;
         }
-
-
-
     }
 }
