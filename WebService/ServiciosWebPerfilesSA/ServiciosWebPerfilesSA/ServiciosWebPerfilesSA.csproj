@@ -97,6 +97,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ApiRoutes.cs" />
+    <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Interfaces\IDepartamentRepository.cs" />
     <Compile Include="Interfaces\IEmpleadoRepository.cs" />
     <Compile Include="Models\Departamento.cs" />
