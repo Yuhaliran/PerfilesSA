@@ -1,6 +1,7 @@
 ﻿using FrontEndPerfilesSA.Helpers;
 using FrontEndPerfilesSA.Models;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 
@@ -8,63 +9,118 @@ namespace FrontEndPerfilesSA.Services
 {
     public class EmpleadoService
     {
-
         public List<Empleado> BuscarEmpleados(string dato)
         {
-            var respuesta = ApiHelper.Get($"api/empleado/buscar?dato={dato}");
-            if (respuesta.IsSuccessStatusCode)
+            try
             {
-                string json = respuesta.Content.ReadAsStringAsync().Result;
-                return JsonConvert.DeserializeObject<List<Empleado>>(json);
+                var respuesta = ApiHelper.Get($"{ApiRoutes.Empleado.Buscar}?dato={dato}");
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    string json = respuesta.Content.ReadAsStringAsync().Result;
+                    Logger.Log("Buscar empleados correcto");
+                    return JsonConvert.DeserializeObject<List<Empleado>>(json);
+                }
+                else
+                {
+                    Logger.Log("Buscar Empleados incorrecto");
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex);
             }
             return new List<Empleado>();
         }
-
 
         public bool ActualizarEmpleado(Empleado empleado)
         {
-            string endpoint = $"api/empleado//actualizar";
-            var respuesta = ApiHelper.Put(endpoint, empleado);
-            return respuesta.IsSuccessStatusCode;
+            try
+            {
+                var respuesta = ApiHelper.Put(ApiRoutes.Empleado.Actualizar, empleado);
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    Logger.Log("Actualizar Empleado Correcto");
+                    return true;
+                }
+                else
+                {
+                    Logger.Log("Actualizar empleado incorrecto");
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex);
+            }
+            return false;
         }
-
 
         public List<Empleado> BuscarEmpleadoPorId(int dato)
         {
-            var respuesta = ApiHelper.Get($"api/empleado/buscarPorId/{dato}");
-            if (respuesta.IsSuccessStatusCode)
+            try
             {
-                string json = respuesta.Content.ReadAsStringAsync().Result;
-                return JsonConvert.DeserializeObject<List<Empleado>>(json);
+                var respuesta = ApiHelper.Get(ApiRoutes.Empleado.BuscarId(dato));
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    string json = respuesta.Content.ReadAsStringAsync().Result;
+                    Logger.Log("Buscar Empleado por id correcto");
+                    return JsonConvert.DeserializeObject<List<Empleado>>(json);
+                }
+                else
+                {
+                    Logger.Log("Buscar Empleado por id incorrecto");
+                }
             }
-
+            catch (Exception ex)
+            {
+                Logger.LogError(ex);
+            }
             return new List<Empleado>();
         }
-
 
         public List<Empleado> ObtenerEmpleados()
         {
-            HttpResponseMessage response = ApiHelper.Get("api/empleado/GetEmpleados");
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                string contenido = response.Content.ReadAsStringAsync().Result;
-                var departamentos = JsonConvert.DeserializeObject<List<Empleado>>(contenido);return departamentos;
+                HttpResponseMessage response = ApiHelper.Get(ApiRoutes.Empleado.ObtenerTodos);
+                if (response.IsSuccessStatusCode)
+                {
+                    string contenido = response.Content.ReadAsStringAsync().Result;
+                    var empleados = JsonConvert.DeserializeObject<List<Empleado>>(contenido);
+                    Logger.Log("ObtenerEmpleados correcto.");
+                    return empleados;
+                }
+                else
+                {
+                    Logger.Log("ObtenerEmpleados incorrecto");
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex);
             }
             return new List<Empleado>();
         }
 
-
-
         public List<Empleado> ReportarEmpleados()
         {
-            HttpResponseMessage response = ApiHelper.Get("api/empleado/ReportarEmpleados");
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                string contenido = response.Content.ReadAsStringAsync().Result;
-                var departamentos = JsonConvert.DeserializeObject<List<Empleado>>(contenido);
-                return departamentos;
+                HttpResponseMessage response = ApiHelper.Get(ApiRoutes.Empleado.Reportar);
+                if (response.IsSuccessStatusCode)
+                {
+                    string contenido = response.Content.ReadAsStringAsync().Result;
+                    var empleados = JsonConvert.DeserializeObject<List<Empleado>>(contenido);
+                    Logger.Log("ReportarEmpleados correcto");
+                    return empleados;
+                }
+                else
+                {
+                    Logger.Log("ReportarEmpleados incorrecto");
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex);
             }
             return new List<Empleado>();
         }
