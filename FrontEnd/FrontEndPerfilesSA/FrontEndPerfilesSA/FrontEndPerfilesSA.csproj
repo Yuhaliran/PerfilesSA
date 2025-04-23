@@ -248,6 +248,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ApiHelper.cs" />
+    <Compile Include="Helpers\ApiRoutes.cs" />
+    <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Models\Departamento.cs" />
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\EmpleadoExtendido.cs" />
